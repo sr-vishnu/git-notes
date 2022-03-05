@@ -179,7 +179,7 @@ git reset --hard HEAD^
 
 ##### **Move changes in a file from staging to working directory:**
 ```
-git rest --mixed HEAD
+git reset --mixed HEAD
 ```
 ##### **Remove all changes in working directory:**
 ```
