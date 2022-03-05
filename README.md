@@ -224,7 +224,7 @@ git branch -d BRANCH_NAME
 ```
 git checkout DESTINATION_BRANCH
 
-git merge TARGET_BRANCH
+git merge SOURCE_BRANCH
 ```
 
 ---
