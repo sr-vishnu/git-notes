@@ -137,7 +137,7 @@ git diff --staged
 
 - the `staging` area contains changes which are ready to be commited , the advantage of having a staging area is that one can edit multiple files and then only move specific files to the `staging` area which will then be commited.
 
-- the `repository` tree contains the actual commits , git maintains data integrity in this tree by tracking a chain of commits(*the commit hash of the previous commit is used in the generation of the commit hash of the next commit, so modifying an existing commit breaks the link to the next commit,however this can be achieved by using `git revert` to create a commit which negates the changes of a previous commit*).
+- the `repository` tree contains the actual commits , git maintains data integrity in this tree by tracking a chain of commits(*the commit hash of the previous commit is used in the generation of the commit hash of the next commit, so modifying an existing commit breaks the link to the next commit, however we can undo a commit by using `git revert` to create a new commit which negates the changes of an existing commit*).
 
 #### **Moving changes from working directory to staging:**
 
