@@ -158,3 +158,47 @@ git rm FILE_NAME
 git mv OLD_FILE_NAME NEW_FILE_NAME
 ```
 
+#### **Moving changes from staging to repository:**
+```
+git commit -m COMMIT_MESSAGE
+```
+#### **Using the git reset command:**
+##### **Move the changes contained in the last commit back to staging area:**
+```
+git reset --soft HEAD^
+```
+##### **Move the changes contained in the last commit back to the working directory:**
+```
+git reset --mixed HEAD^
+```
+
+##### **Remove changes contained in the last commit:**
+```
+git reset --hard HEAD^
+```
+
+##### **Move changes in a file from staging to working directory:**
+```
+git rest --mixed HEAD
+```
+##### **Remove all changes in working directory:**
+```
+git reset --hard HEAD
+```
+##### **Remove changes in a specific file from working directory:**
+```
+git checkout HEAD -- FILE_NAME
+```
+
+##### **Remove untracked files**
+```
+git clean -f
+```
+##### **Recursively remove untracked files and directories:**
+```
+git clean -fd
+```
+**NOTE**: the `-n` flag can be used to get a list of files which will be removed,this can be run initially to make sure we are not removing something important.
+
+---
+
