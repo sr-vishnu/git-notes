@@ -102,7 +102,7 @@ git show COMMIT_SHA
 ### **Using git diff:**
 - `git diff` can be be used to find what changed between two commits , it can also be used to get the difference between two branches.
 
-## **Get the difference between two commits:**
+#### **Get the difference between two commits:**
 ```
 git diff COMMIT_ONE..COMMIT_TWO
 ```
@@ -111,7 +111,7 @@ git diff COMMIT_ONE..COMMIT_TWO
 
 **EXAMPLE**: given a commit hash `commitOne` then `commitOne^` refers to the parent of `commitOne` and `commitOne^^` refers to the grant parent of `commitOne` the same can be achived using the `~` sytax as well, in which the grant parent is referenced by `commitOne~2`.
 
-## **Get the difference between two branches:**
+#### **Get the difference between two branches:**
 ```
 git diff BRANCH_ONE..BRANCH_TWO
 ```
@@ -120,7 +120,7 @@ git diff BRANCH_ONE..BRANCH_TWO
 
 ---
 
-#### **The three tree architecture:**
+### **The three tree architecture:**
 
 ![three tree architecture](three-tree-architecture.png "Title")
 
