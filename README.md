@@ -202,3 +202,29 @@ git clean -fd
 
 ---
 
+### **Branches:**
+
+Branches are very usefull when multiple people work ond different features in the same repository simultaniously,the typical flow would be like `create feature branch from master` -> `do feature development` -> `merge feature branch with master`
+
+#### **create and switch to a new branch:**
+```
+git checkout -b FEATURE_BRANCH_NAME
+```
+#### **rename a branch:**
+```
+git checkout THE_BRANCH_TO_BE_RENAMED
+
+git branch -M NEW_NAME
+```
+#### **Delete a branch:**
+```
+git branch -d BRANCH_NAME
+```
+#### **Merge two branches:**
+```
+git checkout DESTINATION_BRANCH
+
+git merge TARGET_BRANCH
+```
+
+---
