@@ -230,7 +230,7 @@ git merge SOURCE_BRANCH
 
 **NOTE:** there are certain branches which are designated as  `tracking branch` which will save us some typing when we either do a `pull` or `push` you can add tracking information to `.git/config` by providing the `-u` flag when pushing a branch for the first time.
 
-**EXAMPLE:** without the tracking information you may want to do `git push REMOTE_NAME BRANCH_NAME` but will the tracking information in place this can be accomplished by just doing `git push`
+**EXAMPLE:** without the tracking information you may want to do `git push REMOTE_NAME BRANCH_NAME` but with the tracking information in place this can be accomplished by just doing `git push`
 
 ---
 
