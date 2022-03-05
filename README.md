@@ -119,3 +119,8 @@ git diff BRANCH_ONE..BRANCH_TWO
 **NOTE**: use the `--color-words` flag to get information about what exactly changed on each line.
 
 ---
+
+#### **The three tree architecture:**
+
+![three tree architecture](three-tree-architecture.png "Title")
+
