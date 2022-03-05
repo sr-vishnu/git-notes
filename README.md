@@ -118,7 +118,7 @@ git diff BRANCH_ONE..BRANCH_TWO
 
 **NOTE**: use the `--color-words` flag to get information about what exactly changed on each line.
 
-#### **Get the difference between working directory and repository:**
+#### **Get the difference between working directory and staging:**
 ```
 git diff
 ```
