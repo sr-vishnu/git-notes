@@ -139,3 +139,22 @@ git diff --staged
 
 - the `repository` tree contains the actual commits , git maintains data integrity in this tree by tracking a chain of commits(*the commit hash of the previous commit is used in the generation of the commit hash of the next commit, so modifying an existing commit breaks the link to the next commit,however this can be achieved by using `git revert` to create a commit which negates the changes of a previous commit*).
 
+#### **Moving changes from working directory to staging:**
+
+##### **adding a file:**
+```
+git add FILE_NAME
+```
+##### **add everything from current directory:**
+```
+git add .
+```
+##### **removing a file:**
+```
+git rm FILE_NAME
+```
+##### **renaming a file:**
+```
+git mv OLD_FILE_NAME NEW_FILE_NAME
+```
+
