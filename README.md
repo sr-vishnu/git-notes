@@ -107,15 +107,15 @@ git show COMMIT_SHA
 git diff COMMIT_ONE..COMMIT_TWO
 ```
 
-NOTE: different commits can be accessed in refrence to a given commit by adding the `^` sign at the end of the commit or by using the `~NUMBER_OF_COMMITS_TO_MOVE_DOWNWORDS` syntax , it sould also be noted that the commit which refers to the tip of a branch can be accessed using the `HEAD` keyword.
+**NOTE**: different commits can be accessed in refrence to a given commit by adding the `^` sign at the end of the commit or by using the `~NUMBER_OF_COMMITS_TO_MOVE_DOWNWORDS` syntax , it sould also be noted that the commit which refers to the tip of a branch can be accessed using the `HEAD` keyword.
 
-EXAMPLE: given a commit hash `commitOne` then `commitOne^` refers to the parent of `commitOne` and `commitOne^^` refers to the grant parent of `commitOne` the same can be achived using the `~` sytax as well, in which the grant parent is referenced by `commitOne~2`.
+**EXAMPLE**: given a commit hash `commitOne` then `commitOne^` refers to the parent of `commitOne` and `commitOne^^` refers to the grant parent of `commitOne` the same can be achived using the `~` sytax as well, in which the grant parent is referenced by `commitOne~2`.
 
 ## **Get the difference between two branches:**
 ```
 git diff BRANCH_ONE..BRANCH_TWO
 ```
 
-NOTE: use the `--color-words` flag to get information about what exactly changed on each line.
+**NOTE**: use the `--color-words` flag to get information about what exactly changed on each line.
 
 ---
