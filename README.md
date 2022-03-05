@@ -118,6 +118,15 @@ git diff BRANCH_ONE..BRANCH_TWO
 
 **NOTE**: use the `--color-words` flag to get information about what exactly changed on each line.
 
+#### **Get the difference between working directory and repository:**
+```
+git diff
+```
+#### **Get the difference between staging and repository:**
+```
+git diff --staged
+```
+
 ---
 
 ### **The three tree architecture:**
