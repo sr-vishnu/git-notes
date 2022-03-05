@@ -234,3 +234,17 @@ git merge SOURCE_BRANCH
 
 ---
 
+### **Remotes:**
+
+#### **Adding a remote:**
+```
+git remote add REMOTE_ALIAS REMOTE_URL
+```
+
+#### **Removing a remote:**
+```
+git remote rm REMOTE_ALIAS
+```
+
+---
+
